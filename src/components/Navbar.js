@@ -17,7 +17,7 @@ class Navbar extends React.Component {
       <AccountConsumer>
         { value => (
           <Menu inverted tabular>
-            <NavLink to="/home">
+            <NavLink to="/">
               <Menu.Item name='home' active={activeItem === 'home'} onClick={this.handleItemClick}>
                 Dashboard
               </Menu.Item>

@@ -16,11 +16,7 @@ const App = () => (
       <Container>
         <Navbar />
         <Switch>
-          <Route
-            exact
-            path="/home"
-            render={() => <Home />}
-          />
+        <Route exact path="/" component={Home} />
           <Route
             exact
             path="/account/profile"
